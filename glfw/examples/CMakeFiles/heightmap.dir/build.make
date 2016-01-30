@@ -43,10 +43,10 @@ RM = /nfs/zfs-student-2/users/jpiniau/.brew/Cellar/cmake/3.4.3/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/heightmap.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/heightmap.dir/flags.make
 
 examples/CMakeFiles/heightmap.dir/heightmap.c.o: examples/CMakeFiles/heightmap.dir/flags.make
 examples/CMakeFiles/heightmap.dir/heightmap.c.o: examples/heightmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/heightmap.dir/heightmap.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/heightmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/heightmap.dir/heightmap.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/heightmap.c
 
 examples/CMakeFiles/heightmap.dir/heightmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/heightmap.dir/heightmap.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/heightmap.c > CMakeFiles/heightmap.dir/heightmap.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/heightmap.c > CMakeFiles/heightmap.dir/heightmap.c.i
 
 examples/CMakeFiles/heightmap.dir/heightmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/heightmap.dir/heightmap.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/heightmap.c -o CMakeFiles/heightmap.dir/heightmap.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/heightmap.c -o CMakeFiles/heightmap.dir/heightmap.c.s
 
 examples/CMakeFiles/heightmap.dir/heightmap.c.o.requires:
 
@@ -83,16 +83,16 @@ examples/CMakeFiles/heightmap.dir/heightmap.c.o.provides.build: examples/CMakeFi
 
 examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o: examples/CMakeFiles/heightmap.dir/flags.make
 examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o: deps/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/heightmap.dir/__/deps/glad.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/heightmap.dir/__/deps/glad.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/glad.c
 
 examples/CMakeFiles/heightmap.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/heightmap.dir/__/deps/glad.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/glad.c > CMakeFiles/heightmap.dir/__/deps/glad.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/glad.c > CMakeFiles/heightmap.dir/__/deps/glad.c.i
 
 examples/CMakeFiles/heightmap.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/heightmap.dir/__/deps/glad.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/glad.c -o CMakeFiles/heightmap.dir/__/deps/glad.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/glad.c -o CMakeFiles/heightmap.dir/__/deps/glad.c.s
 
 examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o.requires:
 
@@ -118,8 +118,8 @@ examples/heightmap.app/Contents/MacOS/heightmap: examples/CMakeFiles/heightmap.d
 examples/heightmap.app/Contents/MacOS/heightmap: examples/CMakeFiles/heightmap.dir/build.make
 examples/heightmap.app/Contents/MacOS/heightmap: src/libglfw3.a
 examples/heightmap.app/Contents/MacOS/heightmap: examples/CMakeFiles/heightmap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable heightmap.app/Contents/MacOS/heightmap"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/heightmap.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable heightmap.app/Contents/MacOS/heightmap"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/heightmap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/heightmap.dir/build: examples/heightmap.app/Contents/MacOS/heightmap
@@ -132,10 +132,10 @@ examples/CMakeFiles/heightmap.dir/requires: examples/CMakeFiles/heightmap.dir/__
 .PHONY : examples/CMakeFiles/heightmap.dir/requires
 
 examples/CMakeFiles/heightmap.dir/clean:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/heightmap.dir/cmake_clean.cmake
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/heightmap.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/heightmap.dir/clean
 
 examples/CMakeFiles/heightmap.dir/depend:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/CMakeFiles/heightmap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/CMakeFiles/heightmap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/heightmap.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/reopen.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/reopen.c
 GLFW/glfw3.h
 -
 time.h

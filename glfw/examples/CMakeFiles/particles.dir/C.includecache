@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c
 getopt.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.h
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.c
 tinycthread.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -36,7 +36,7 @@ process.h
 sys/timeb.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.h
 time.h
 -
 pthread.h
@@ -44,7 +44,7 @@ pthread.h
 windows.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/particles.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/particles.c
 stdlib.h
 -
 stdio.h

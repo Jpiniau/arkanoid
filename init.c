@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 11:13:54 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/30 12:43:17 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/30 14:13:32 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,15 @@ static void			init_ship(t_ship *ship)
 	ship->pos.y = 400;
 	ship->width = SHIP_WIDTH;
 	ship->height = SHIP_HEIGHT;
+}
+
+void				init_ball(t_ball *ball)
+{
+	ball->pos.x = 0;
+	ball->pos.y = 400;
+	ball->speed.x = 0;
+	ball->speed.y = 0;
+	ball->radius = 0.03;
 }
 
 void				init(t_env *env)

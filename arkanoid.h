@@ -4,7 +4,7 @@
 # include <GLFW/glfw3.h>
 # include "libft.h"
 
-# define SHIP_SPEED 20
+# define SHIP_SPEED 0.015
 # define SHIP_WIDTH 0.40
 # define SHIP_HEIGHT 0.05
 
@@ -21,15 +21,23 @@ typedef struct	s_ship
 	double	height;
 }				t_ship;
 
+typedef struct	s_ball
+{
+	t_pos	pos;
+	t_pos	speed;
+	float	radius;
+}				t_ball;
+
 typedef struct	s_env
 {
 	t_ship		ship;
 	GLFWwindow	*win;
+	t_ball		ball;
 
 }				t_env;
 
 
-void	draw_ship(t_ship *ship);
+void	draw(t_env *env);
 void	init(t_env *env);
 void	content(t_env *env);
 void	key_hook(t_env *env);

@@ -6,5 +6,5 @@ void		content(t_env *env)
 	glClear(GL_COLOR_BUFFER_BIT);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	key_hook(env);
-	draw_ship(&env->ship);
+	draw(env);
 }

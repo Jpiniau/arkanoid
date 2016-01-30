@@ -1,4 +1,4 @@
-# Install script for directory: /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests
+# Install script for directory: /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

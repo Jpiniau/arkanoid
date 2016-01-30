@@ -52,7 +52,7 @@ PROJECT_LOGO           =
 # If a relative path is entered, it will be relative to the location
 # where doxygen was started. If left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs
+OUTPUT_DIRECTORY       = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs
 
 # If the CREATE_SUBDIRS tag is set to YES, then doxygen will create
 # 4096 sub-directories (in 2 levels) under the output directory of each output
@@ -641,7 +641,7 @@ WARN_FORMAT            = "$file:$line: $text"
 # and error messages should be written. If left blank the output is written
 # to stderr.
 
-WARN_LOGFILE           = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/warnings.txt
+WARN_LOGFILE           = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/warnings.txt
 
 #---------------------------------------------------------------------------
 # configuration options related to the input files
@@ -653,21 +653,21 @@ WARN_LOGFILE           = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/w
 # with spaces.
 
 INPUT                  =                          \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/include/GLFW/glfw3.h       \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/include/GLFW/glfw3native.h \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/main.dox              \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/news.dox              \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/moving.dox            \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/quick.dox             \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/compile.dox           \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/build.dox             \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/intro.dox             \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/context.dox           \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/monitor.dox           \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/window.dox            \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/input.dox             \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/rift.dox              \
-                         /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/compat.dox
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/include/GLFW/glfw3.h       \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/include/GLFW/glfw3native.h \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/main.dox              \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/news.dox              \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/moving.dox            \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/quick.dox             \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/compile.dox           \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/build.dox             \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/intro.dox             \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/context.dox           \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/monitor.dox           \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/window.dox            \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/input.dox             \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/rift.dox              \
+                         /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/compat.dox
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding, which is
@@ -727,7 +727,7 @@ EXCLUDE_SYMBOLS        = APIENTRY GLFWAPI
 # directories that contain example code fragments that are included (see
 # the \include command).
 
-EXAMPLE_PATH           = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples
+EXAMPLE_PATH           = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp
@@ -903,13 +903,13 @@ HTML_FILE_EXTENSION    = .html
 # have to redo this when upgrading to a newer version of doxygen or when
 # changing the value of configuration settings such as GENERATE_TREEVIEW!
 
-HTML_HEADER            = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/header.html
+HTML_HEADER            = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/header.html
 
 # The HTML_FOOTER tag can be used to specify a personal HTML footer for
 # each generated HTML page. If it is left blank doxygen will generate a
 # standard footer.
 
-HTML_FOOTER            = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/footer.html
+HTML_FOOTER            = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/footer.html
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading
 # style sheet that is used by each HTML page. It can be used to
@@ -928,7 +928,7 @@ HTML_STYLESHEET        =
 # robust against future updates. Doxygen will copy the style sheet file to
 # the output directory.
 
-HTML_EXTRA_STYLESHEET  = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/extra.css
+HTML_EXTRA_STYLESHEET  = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/extra.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -937,7 +937,7 @@ HTML_EXTRA_STYLESHEET  = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/e
 # files. In the HTML_STYLESHEET file, use the file name only. Also note that
 # the files will be copied as-is; there are no commands or markers available.
 
-HTML_EXTRA_FILES       = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/docs/spaces.svg
+HTML_EXTRA_FILES       = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/docs/spaces.svg
 
 # The HTML_COLORSTYLE_HUE tag controls the color of the HTML output.
 # Doxygen will adjust the colors in the style sheet and background images

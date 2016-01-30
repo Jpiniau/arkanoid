@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/install_manifest.txt" files)
+file(READ "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -43,10 +43,10 @@ RM = /nfs/zfs-student-2/users/jpiniau/.brew/Cellar/cmake/3.4.3/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/particles.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/particles.dir/flags.make
 
 examples/CMakeFiles/particles.dir/particles.c.o: examples/CMakeFiles/particles.dir/flags.make
 examples/CMakeFiles/particles.dir/particles.c.o: examples/particles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/particles.dir/particles.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/particles.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/particles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/particles.dir/particles.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/particles.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/particles.c
 
 examples/CMakeFiles/particles.dir/particles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/particles.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/particles.c > CMakeFiles/particles.dir/particles.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/particles.c > CMakeFiles/particles.dir/particles.c.i
 
 examples/CMakeFiles/particles.dir/particles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/particles.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/particles.c -o CMakeFiles/particles.dir/particles.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/particles.c -o CMakeFiles/particles.dir/particles.c.s
 
 examples/CMakeFiles/particles.dir/particles.c.o.requires:
 
@@ -83,16 +83,16 @@ examples/CMakeFiles/particles.dir/particles.c.o.provides.build: examples/CMakeFi
 
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: examples/CMakeFiles/particles.dir/flags.make
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: deps/tinycthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.c
 
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/tinycthread.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.c > CMakeFiles/particles.dir/__/deps/tinycthread.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.c > CMakeFiles/particles.dir/__/deps/tinycthread.c.i
 
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/tinycthread.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.c -o CMakeFiles/particles.dir/__/deps/tinycthread.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.c -o CMakeFiles/particles.dir/__/deps/tinycthread.c.s
 
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.requires:
 
@@ -107,16 +107,16 @@ examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.provides.build: exampl
 
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: examples/CMakeFiles/particles.dir/flags.make
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/getopt.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/getopt.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c
 
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/getopt.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c > CMakeFiles/particles.dir/__/deps/getopt.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c > CMakeFiles/particles.dir/__/deps/getopt.c.i
 
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/getopt.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c -o CMakeFiles/particles.dir/__/deps/getopt.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c -o CMakeFiles/particles.dir/__/deps/getopt.c.s
 
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.o.requires:
 
@@ -144,8 +144,8 @@ examples/particles.app/Contents/MacOS/particles: examples/CMakeFiles/particles.d
 examples/particles.app/Contents/MacOS/particles: examples/CMakeFiles/particles.dir/build.make
 examples/particles.app/Contents/MacOS/particles: src/libglfw3.a
 examples/particles.app/Contents/MacOS/particles: examples/CMakeFiles/particles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable particles.app/Contents/MacOS/particles"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/particles.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable particles.app/Contents/MacOS/particles"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/particles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/particles.dir/build: examples/particles.app/Contents/MacOS/particles
@@ -159,10 +159,10 @@ examples/CMakeFiles/particles.dir/requires: examples/CMakeFiles/particles.dir/__
 .PHONY : examples/CMakeFiles/particles.dir/requires
 
 examples/CMakeFiles/particles.dir/clean:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/particles.dir/cmake_clean.cmake
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/particles.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/particles.dir/clean
 
 examples/CMakeFiles/particles.dir/depend:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/particles.dir/depend
 

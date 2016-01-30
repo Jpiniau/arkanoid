@@ -6,5 +6,5 @@ C_FLAGS =   -Wall
 
 C_DEFINES = 
 
-C_INCLUDES = -I/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/include -I/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps 
+C_INCLUDES = -I/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/include -I/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps 
 

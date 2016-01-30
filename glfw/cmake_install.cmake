@@ -1,4 +1,4 @@
-# Install script for directory: /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+# Install script for directory: /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,13 +28,13 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES
-    "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/src/glfw3Config.cmake"
-    "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/src/glfw3ConfigVersion.cmake"
+    "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/src/glfw3Config.cmake"
+    "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -42,7 +42,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets.cmake"
-         "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
+         "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -51,21 +51,21 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/src/glfw3.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/src/cmake_install.cmake")
-  include("/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/cmake_install.cmake")
-  include("/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/cmake_install.cmake")
+  include("/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/src/cmake_install.cmake")
+  include("/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/cmake_install.cmake")
+  include("/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/cmake_install.cmake")
 
 endif()
 
@@ -77,5 +77,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

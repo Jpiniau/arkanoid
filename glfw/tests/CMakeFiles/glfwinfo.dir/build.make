@@ -43,10 +43,10 @@ RM = /nfs/zfs-student-2/users/jpiniau/.brew/Cellar/cmake/3.4.3/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_SOURCE_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw
+CMAKE_BINARY_DIR = /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/glfwinfo.dir/depend.make
@@ -59,16 +59,16 @@ include tests/CMakeFiles/glfwinfo.dir/flags.make
 
 tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o: tests/CMakeFiles/glfwinfo.dir/flags.make
 tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o: tests/glfwinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/glfwinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/glfwinfo.c
 
 tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfwinfo.dir/glfwinfo.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/glfwinfo.c > CMakeFiles/glfwinfo.dir/glfwinfo.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/glfwinfo.c > CMakeFiles/glfwinfo.dir/glfwinfo.c.i
 
 tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfwinfo.dir/glfwinfo.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/glfwinfo.c -o CMakeFiles/glfwinfo.dir/glfwinfo.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/glfwinfo.c -o CMakeFiles/glfwinfo.dir/glfwinfo.c.s
 
 tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o.requires:
 
@@ -83,16 +83,16 @@ tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o.provides.build: tests/CMakeFiles/glfw
 
 tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o: tests/CMakeFiles/glfwinfo.dir/flags.make
 tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o: deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o   -c /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o   -c /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c
 
 tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfwinfo.dir/__/deps/getopt.c.i"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c > CMakeFiles/glfwinfo.dir/__/deps/getopt.c.i
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c > CMakeFiles/glfwinfo.dir/__/deps/getopt.c.i
 
 tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfwinfo.dir/__/deps/getopt.c.s"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.s
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.s
 
 tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o.requires:
 
@@ -118,8 +118,8 @@ tests/glfwinfo: tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o
 tests/glfwinfo: tests/CMakeFiles/glfwinfo.dir/build.make
 tests/glfwinfo: src/libglfw3.a
 tests/glfwinfo: tests/CMakeFiles/glfwinfo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable glfwinfo"
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfwinfo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable glfwinfo"
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfwinfo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/glfwinfo.dir/build: tests/glfwinfo
@@ -132,10 +132,10 @@ tests/CMakeFiles/glfwinfo.dir/requires: tests/CMakeFiles/glfwinfo.dir/__/deps/ge
 .PHONY : tests/CMakeFiles/glfwinfo.dir/requires
 
 tests/CMakeFiles/glfwinfo.dir/clean:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/glfwinfo.dir/cmake_clean.cmake
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/glfwinfo.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/glfwinfo.dir/clean
 
 tests/CMakeFiles/glfwinfo.dir/depend:
-	cd /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests /nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests /nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/glfwinfo.dir/depend
 

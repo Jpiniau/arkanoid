@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/wave.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/wave.c
 stdio.h
 -
 stdlib.h

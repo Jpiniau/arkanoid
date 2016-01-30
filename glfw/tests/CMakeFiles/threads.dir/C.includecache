@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.c
 tinycthread.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -26,7 +26,7 @@ process.h
 sys/timeb.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/tinycthread.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/tinycthread.h
 time.h
 -
 pthread.h
@@ -34,9 +34,9 @@ pthread.h
 windows.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/threads.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/threads.c
 tinycthread.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/tinycthread.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/tinycthread.h
 GLFW/glfw3.h
 -
 stdio.h

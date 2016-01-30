@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/splitview.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/splitview.c
 GLFW/glfw3.h
 -
 math.h

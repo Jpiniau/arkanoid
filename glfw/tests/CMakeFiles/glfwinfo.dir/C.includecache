@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.c
 getopt.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/deps/getopt.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/deps/getopt.h
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/glfwinfo.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/glfwinfo.c
 GLFW/glfw3.h
 -
 GL/glext.h
@@ -28,7 +28,7 @@ stdlib.h
 string.h
 -
 getopt.h
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/tests/getopt.h
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/tests/getopt.h
 
 deps/GL/glext.h
 windows.h

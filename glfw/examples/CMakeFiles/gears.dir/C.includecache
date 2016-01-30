@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/zfs-student-2/users/jpiniau/rush_casse/glfw/examples/gears.c
+/nfs/zfs-student-2/users/jpiniau/arkanoid/glfw/examples/gears.c
 math.h
 -
 stdlib.h
