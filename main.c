@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 11:29:54 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/30 12:34:40 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/30 16:24:05 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int		main()
 	init(&env);
 	while (!glfwWindowShouldClose(env.win))
 	{
+		glViewport(0, 0, WIDTH, HEIGHT);
 		content(&env);
 		glfwSwapBuffers(env.win);
 	}
