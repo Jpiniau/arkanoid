@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 13:47:09 by jpiniau           #+#    #+#             */
-/*   Updated: 2015/10/28 15:29:39 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/31 14:20:56 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <string.h>
+# include <dirent.h>
 
 typedef struct		s_list
 {
@@ -89,5 +90,8 @@ int					ft_islower(int c);
 char				*ft_strndup(const char *str, size_t n);
 int					ft_pow(int x, int y);
 int					ft_mod(int x, int y);
+void				*ft_realloc(void *ptr, size_t size);
+int					ft_lendir(DIR *dir);
+int					get_next_line(int const fd, char **line);
 
 #endif

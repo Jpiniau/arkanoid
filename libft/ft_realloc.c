@@ -1,19 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ship.c                                             :+:      :+:    :+:   */
+/*   ft_realloc.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/30 15:02:32 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/30 16:43:39 by jpiniau          ###   ########.fr       */
+/*   Created: 2015/03/06 14:37:25 by jpiniau           #+#    #+#             */
+/*   Updated: 2015/12/21 19:28:26 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "arkanoid.h"
+#include "libft.h"
 
-void	ship_pos(t_env *env, double new_pos)
+void	*ft_realloc(void *ptr, size_t size)
 {
-	if (new_pos >= env->ship.width && new_pos <= WIDTH - env->ship.width)
-		env->ship.pos.x = new_pos;
+	void	*ptr2;
+
+	ptr2 = ft_memalloc(size);
+	ft_memcpy(ptr2, ptr, size);
+	ptr = NULL;
+	return (ptr2);
 }

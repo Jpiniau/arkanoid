@@ -3,39 +3,56 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: kmonrose <kmonrose@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/08 11:46:50 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/11/16 12:12:28 by jpiniau          ###   ########.fr       */
+/*   Created: 2013/11/23 11:17:32 by kmonrose          #+#    #+#             */
+/*   Updated: 2015/12/14 21:57:21 by kmonrose         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-char	*ft_strjoin(char const *s1, char const *s2)
+static char	*ft_copy_join(const char *s1, const char *s2, char *copy)
 {
-	size_t	size_s1;
-	size_t	size_s2;
-	char	*new_str;
-	size_t	i;
-	size_t	j;
+	int		i;
+	int		j;
 
 	i = 0;
 	j = 0;
-	if (!s1 && !s2)
-		return (NULL);
-	else if (!s1)
-		return (ft_strdup(s2));
-	else if (!s2)
-		return (ft_strdup(s1));
-	size_s1 = ft_strlen(s1);
-	size_s2 = ft_strlen(s2);
-	new_str = (char *)malloc(sizeof(char) * (size_s1 + size_s2 + 1));
-	while (i != size_s1)
-		new_str[i++] = *s1++;
-	while (j != size_s2)
-		new_str[i + j++] = *s2++;
-	new_str[i + j] = '\0';
-	return (new_str);
+	while (s1[i] != 0)
+	{
+		copy[i] = s1[i];
+		i++;
+	}
+	while (s2[j] != 0)
+	{
+		copy[i] = s2[j];
+		i++;
+		j++;
+	}
+	copy[i] = '\0';
+	return (copy);
+}
+
+char		*ft_strjoin(const char *s1, const char *s2)
+{
+	char	*scat;
+	char	*cmp_null;
+	int		len;
+
+	len = 0;
+	cmp_null = NULL;
+	if (cmp_null != s1 && cmp_null != s2)
+	{
+		len = ft_strlen(s1) + ft_strlen(s2) + 1;
+		if ((scat = (char*)malloc(sizeof(char) * len)) != NULL)
+		{
+			scat = ft_copy_join(s1, s2, scat);
+			return (scat);
+		}
+		else
+			return (NULL);
+	}
+	return ((char*)s1);
 }

@@ -1,19 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ship.c                                             :+:      :+:    :+:   */
+/*   ft_lendir.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/30 15:02:32 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/30 16:43:39 by jpiniau          ###   ########.fr       */
+/*   Created: 2016/01/31 12:13:02 by jpiniau           #+#    #+#             */
+/*   Updated: 2016/01/31 12:19:36 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "arkanoid.h"
+#include "libft.h"
 
-void	ship_pos(t_env *env, double new_pos)
+int ft_lendir(DIR* dir)
 {
-	if (new_pos >= env->ship.width && new_pos <= WIDTH - env->ship.width)
-		env->ship.pos.x = new_pos;
+	int				i;
+	struct dirent*	dr;
+
+	i = 0;
+	while ((dr = readdir(dir)) != NULL)
+	{
+		if (ft_strcmp(dr->d_name, ".") != 0 && ft_strcmp(dr->d_name, "..") != 0)
+			i++;
+	}
+	return i;
 }
+

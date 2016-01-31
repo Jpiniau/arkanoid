@@ -6,13 +6,13 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 11:29:54 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/30 16:24:05 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/30 18:39:55 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "arkanoid.h"
 
-int		main()
+int		main(void)
 {
 	t_env	env;
 

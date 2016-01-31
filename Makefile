@@ -9,7 +9,9 @@ SRC =	main.c\
 		draw.c\
 		content.c\
 		key_hook.c\
-		ship.c
+		ship.c\
+		ball.c\
+		parse.c
 
 OBJ = $(SRC:.c=.o)
 

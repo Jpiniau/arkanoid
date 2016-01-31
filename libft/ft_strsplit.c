@@ -3,74 +3,97 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: kmonrose <kmonrose@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/08 10:58:32 by jpiniau           #+#    #+#             */
-/*   Updated: 2015/03/30 17:33:10 by jpiniau          ###   ########.fr       */
+/*   Created: 2013/11/23 17:31:27 by kmonrose          #+#    #+#             */
+/*   Updated: 2015/12/14 22:50:41 by kmonrose         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-static size_t	ft_len_split(char const *s, char c)
+static int		ft_count_str(char const *str, char c)
 {
-	size_t	len;
+	int		count;
+	int		btrouve;
 
-	len = 0;
-	while (*s != '\0')
+	btrouve = 0;
+	count = 0;
+	while (*str)
 	{
-		if (*s != c)
+		if (*str != c && btrouve == 0)
 		{
-			while (*s != c && *s != '\0')
-				s++;
-			len++;
+			btrouve = 1;
+			count++;
 		}
-		else
-		{
-			while (*s == c && *s != '\0')
-				s++;
-		}
+		else if (*str == c && btrouve == 1)
+			btrouve = 0;
+		str++;
 	}
-	return (len);
+	return (count);
 }
 
-static char		*ft_word(char *s, char c)
+static int		ft_strlen_c(char const *str, int c)
 {
-	char	*str;
-	size_t	size_word;
+	int		i;
 
-	size_word = 0;
-	while (s[size_word] != c && s[size_word] != '\0')
-		size_word++;
-	str = (char *)malloc(sizeof(char) * size_word + 1);
-	if (str)
-		str = ft_strncpy(str, s, size_word);
-	str[size_word] = '\0';
-	return (str);
+	i = 0;
+	while (str[i] && str[i] != (char)c)
+		i++;
+	return (i);
+}
+
+static char		*ft_fill_case(char const *str, int size)
+{
+	int		i;
+	char	*copy;
+
+	i = 0;
+	copy = (char*)malloc(sizeof(char) * size + 1);
+	while (i < size)
+	{
+		copy[i] = str[i];
+		i++;
+	}
+	copy[i] = '\0';
+	return (copy);
+}
+
+static int		ft_search_end_str(char const *str, char c)
+{
+	while (*str && *str == c)
+		str++;
+	if (*str == 0)
+		return (1);
+	else
+		return (0);
 }
 
 char			**ft_strsplit(char const *s, char c)
 {
-	char	**str_split;
-	size_t	i;
+	int		count;
+	int		i;
+	char	**tab;
 
-	if (s == NULL)
-		return (NULL);
-	str_split = (char **)malloc(sizeof(char *) * ft_len_split(s, c) + 1);
 	i = 0;
-	while (*s != '\0' && str_split)
+	if (NULL != s)
 	{
-		if (*s != c)
+		count = ft_count_str(s, c);
+		if ((tab = (char**)malloc(sizeof(char*) * (count + 1))) != NULL)
 		{
-			str_split[i] = ft_word((char *)s, c);
-			while (*s != c && *s != '\0')
-				s++;
-			i++;
+			while (*s && !ft_search_end_str(s, c))
+			{
+				while (*s && *s == c)
+					s++;
+				tab[i] = ft_fill_case(s, ft_strlen_c(s, c));
+				i++;
+				while (*s && *s != c)
+					s++;
+			}
+			tab[i] = NULL;
+			return (tab);
 		}
-		if (*s != '\0')
-			s++;
 	}
-	str_split[i] = NULL;
-	return (str_split);
+	return (NULL);
 }
