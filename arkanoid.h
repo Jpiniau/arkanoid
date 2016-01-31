@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 18:44:41 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/31 17:28:16 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/31 19:04:59 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,11 @@ typedef struct	s_env
 	GLFWwindow	*win;
 	t_ball		ball;
 	t_map		*maps;
+	int			set;
+	double		score;
+	int			nblvl;
+	int			lvl;
+	int			life;
 
 }				t_env;
 
@@ -88,6 +93,7 @@ void			content(t_env *env);
 void			key_hook(t_env *env);
 void			ship_pos(t_env *env, double new_pos);
 void			move_ball(t_env *env);
-t_map			*parse_maps(t_map *maps);
+t_map			*parse_maps(t_map *maps, t_env *env);
+void			score(t_env *env);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 11:33:20 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/31 17:44:09 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/31 18:42:13 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,5 +61,5 @@ void			draw(t_env *env)
 {
 	draw_ship(&env->ship);
 	draw_ball(&env->ball);
-	draw_map(env->maps[0].map);
+	draw_map(env->maps[env->lvl].map);
 }

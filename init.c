@@ -6,23 +6,12 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 11:13:54 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/31 17:43:50 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/31 19:10:17 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "arkanoid.h"
-/*
-static void			key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
-{
-	(void)scancode;
-	(void)mods;
-	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-	{
-		ft_putstr("bye");
-		glfwSetWindowShouldClose(window, GL_TRUE);
-	}
-}
-*/
+
 static GLFWwindow	*init_window(void)
 {
 	GLFWwindow *window;
@@ -36,7 +25,6 @@ static GLFWwindow	*init_window(void)
 		return (NULL);
 	}
 	glfwMakeContextCurrent(window);
-//	glfwSetKeyCallback(window, key_callback);
 	return (window);
 }
 
@@ -59,9 +47,9 @@ static void			init_ball(t_ball *ball)
 
 void				test(t_map *maps)
 {
-	int i = -1;
+	int i;
 
-	(void)i;
+	i = -1;
 	ft_putendl("test affichage map");
 	while (++i < 135)
 	{
@@ -74,9 +62,16 @@ void				test(t_map *maps)
 
 void				init(t_env *env)
 {
-	env->win = init_window();
+	if (env->set != 1)
+	{
+		env->win = init_window();
+		env->lvl = 0;
+		env->life = 3;
+	}
+	env->set = 1;
 	init_ship(&env->ship);
 	init_ball(&env->ball);
-	env->maps = parse_maps(env->maps);
+	env->maps = parse_maps(env->maps, env);
+	env->score = 0;
 	//test(env->maps);
 }

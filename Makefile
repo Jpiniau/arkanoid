@@ -1,8 +1,8 @@
 NAME = test
 
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -Wno-deprecated-declarations
 
-GFLW = -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo -framework Carbon
+GFLW = -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo -framework GLUT -framework Carbon
 
 SRC =	main.c\
 		init.c\
@@ -11,7 +11,8 @@ SRC =	main.c\
 		key_hook.c\
 		ship.c\
 		ball.c\
-		parse.c
+		parse.c\
+		score.c
 
 OBJ = $(SRC:.c=.o)
 

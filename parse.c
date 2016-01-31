@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/30 21:27:38 by jpiniau           #+#    #+#             */
-/*   Updated: 2016/01/31 17:44:40 by jpiniau          ###   ########.fr       */
+/*   Updated: 2016/01/31 19:12:44 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,18 +86,21 @@ static t_brick		**parse_map(t_brick **map, char *name_file)
 	return (map);
 }
 
-t_map				*parse_maps(t_map *maps)
+t_map				*parse_maps(t_map *maps, t_env *env)
 {
 	DIR				*dirp;
 	DIR				*tmp;
 	struct dirent	*dr;
 	int				i;
+	int				nblvl;
 
 	i = 0;
 	if ((dirp = opendir("./levels/")) != NULL &&
 			(tmp = opendir("./levels/")) != NULL)
 	{
-		maps = (t_map *)ft_memalloc(sizeof(t_map) * ft_lendir(tmp));
+		nblvl = ft_lendir(tmp);
+		env->nblvl = nblvl;
+		maps = (t_map *)ft_memalloc(sizeof(t_map) * nblvl);
 		while ((dr = readdir(dirp)))
 		{
 			if (!ft_strequ(dr->d_name, ".") && !ft_strequ(dr->d_name, ".."))
